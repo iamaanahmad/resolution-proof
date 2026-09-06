@@ -1,0 +1,12 @@
+{
+ "status": "failed",
+ "output": {
+  "message": "verify_result process exited with code 1",
+  "duration": 5,
+  "diagnostic": {
+   "response_id": 1,
+   "exit": {"kind": "code", "code": 1},
+   "stderr": "verification failed before a complete result was produced\n"
+  }
+ }
+}

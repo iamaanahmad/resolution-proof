@@ -1,0 +1,10 @@
+schema_version: 1
+partial:
+  human_matches_any: [failed, incomplete, unavailable]
+  summary_must_differ_from_positive: true
+truncated:
+  human_matches_any: [truncated, incomplete]
+  summary_must_differ_from_positive: true
+blocked:
+  human_matches_any: [blocked, upstream]
+  summary_must_differ_from_positive: true
